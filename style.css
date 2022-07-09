@@ -159,3 +159,83 @@ body
     background: #fff;
     padding: 40px;
 }
+
+.Sobre
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #003147;
+}
+.Sobre .caixa
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+.Sobre .caixa .anoTrabalhado
+{
+    min-width: 100px;
+}
+.Sobre .caixa .anoTrabalhado h5
+{   
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.Sobre .caixa .anoTrabalhado h5:nth-child(2)
+{
+    margin-top: 9%;
+    font-size: 127%;
+}
+.Sobre .caixa .text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+}
+.Habilidades .Caixa
+{ 
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.Habilidades .Caixa h4
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 500;
+
+
+}
+.Habilidades .Caixa .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background:  #f0f0f0;
+}
+.Habilidades .Caixa .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
