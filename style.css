@@ -80,6 +80,79 @@ body
     font-weight: 300;
 }
 
+.ContatoInfo{
+    padding-top: 40px;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20%;
+    text-align: center;
+}
+.ContatoInfo ul
+{
+    position: relative;
+}
+.ContatoInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.ContatoInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.ContatoInfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+
+}
+.ContatoInfo.Academico li
+{
+    margin-bottom: 20px;
+}
+.ContatoInfo.Academico li h5
+{
+    color:#03a9f4;
+    font-weight: 500;
+}
+.ContatoInfo.Academico li h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+.ContatoInfo.Academico li h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+.ContatoInfo.idiomas .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.ContatoInfo.idiomas .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
 .container .right_Side
 {
     position: relative;
