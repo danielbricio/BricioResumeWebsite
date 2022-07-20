@@ -71,13 +71,14 @@ body
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    line-height: 1.4em;
+    line-height: 1.9em;
 }
 
-.TextoPerfil span
+.TextoPerfil  span
 {
-    font-size: 0.8em;
+    font-size: .6em;
     font-weight: 300;
+    line-height: 0.1em;
 }
 
 .ContatoInfo{
